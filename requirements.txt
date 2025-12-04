@@ -1,0 +1,21 @@
+# Bibliography Generator - Requirements
+
+# Core Requirements
+# Python 3.7+
+#
+# No external dependencies required.
+# Uses only Python standard library:
+# - sqlite3 (for database)
+# - argparse (for CLI)
+# - enum (for language/format enums)
+# - dataclasses (for entry objects)
+# - re (for parsing)
+# - json (for exports)
+# - typing (for type hints)
+
+# Optional Development Dependencies
+pytest>=7.0          # For running tests
+pytest-cov>=4.0      # For coverage reports
+black>=22.0          # For code formatting
+flake8>=4.0          # For linting
+mypy>=0.990          # For type checking
